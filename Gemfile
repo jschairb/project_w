@@ -20,6 +20,10 @@ gem 'mongoid'
 gem 'twitter'
 gem 'twitter-bootstrap-rails'
 
+group :development do
+  gem 'heroku'
+end
+
 group :development, :testing do 
   gem 'rspec-rails'
 end
