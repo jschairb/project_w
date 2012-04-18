@@ -14,7 +14,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'bson_ext'
 gem 'jquery-rails'
+gem 'mongoid'
 gem 'twitter'
 gem 'twitter-bootstrap-rails'
 
